@@ -6,7 +6,7 @@ Welcome to OctoAcme's comprehensive project management documentation. This resou
 
 OctoAcme employs a structured yet flexible **5-phase project lifecycle** designed to maximize value delivery while maintaining quality and transparency. Our process begins with **Initiation**, where we validate business needs and align stakeholders through lightweight project charters. The **Planning** phase transforms approved initiatives into actionable backlogs with clear acceptance criteria, dependencies, and release timelines. During **Execution**, we follow an iterative delivery model using GitHub Projects for workflow management, with small pull requests, comprehensive testing layers, and continuous integration. The **Release & Deployment** phase ensures safe, observable production rollouts with documented rollback plans and stakeholder communications. Finally, our **Close & Retrospective** phase captures learnings and converts them into actionable improvements, fostering a culture of continuous enhancement.
 
-Our project ecosystem is powered by **clearly defined personas and roles** working in harmony. **Project Managers** coordinate delivery activities, manage schedules, risks, and cross-functional communications while maintaining transparency through consistent documentation and status reporting. **Product Managers** own the product vision, define success metrics, prioritize backlogs, and validate solutions through user research and data-driven decisions. **Developers** implement features with a focus on reliability, maintainability, and test coverage while participating in design reviews and technical risk identification. **QA and Testing teams** validate acceptance criteria, execute comprehensive test strategies spanning unit, integration, and end-to-end testing, and ensure quality gates are met before release.
+Our project ecosystem is powered by **clearly defined personas and roles** working in harmony. **Project Managers** coordinate delivery activities, manage schedules, risks, and cross-functional communications while maintaining transparency through consistent documentation and status reporting. **Product Managers** own the product vision, define success metrics, prioritize backlogs, and validate solutions through user research and data-driven decisions. **Developers** implement features with a focus on reliability, maintainability, and test coverage while participating in design reviews and technical risk identification. **UX Designers** translate requirements into user-friendly interfaces, conduct usability testing, and ensure accessibility standards are met. **DevOps Engineers** own CI/CD pipelines, infrastructure automation, and deployment processes to enable reliable releases. **Security Leads** identify and mitigate security risks, conduct threat modeling, and lead incident response. **Data Analysts** define metrics, create dashboards, and provide data-driven insights to inform product decisions. **Sponsors/Executive Stakeholders** provide strategic direction, approve major decisions, and unblock organizational issues. **QA and Testing teams** validate acceptance criteria, execute comprehensive test strategies spanning unit, integration, and end-to-end testing, and ensure quality gates are met before release.
 
 **Communication and collaboration** are fundamental to our success, supported by a well-defined cadence and clear escalation paths. Daily 15-minute standups keep the delivery team aligned on progress, blockers, and dependencies. Weekly delivery syncs provide visibility into progress updates, risk flags, and decision-making needs, while also serving as a forum for cross-team dependency coordination. Monthly stakeholder updates ensure executive and business sponsors remain informed of project health, milestones, and strategic decisions. This rhythm is complemented by sprint demos, planning sessions, and ad-hoc escalations when time-sensitive issues arise.
 
@@ -24,7 +24,10 @@ This documentation is organized into focused guides covering each aspect of our 
   Foundational principles, core roles, key artifacts, and high-level lifecycle. Start here for a complete introduction to OctoAcme's project approach.
 
 - **[Roles and Personas](octoacme-roles-and-personas.md)**  
-  Detailed definitions of Developer, Product Manager, and Project Manager roles, including responsibilities, goals, and communication patterns.
+  Comprehensive definitions of all project roles including Developer, Product Manager, Project Manager, UX Designer, DevOps Engineer, Security Lead, Data Analyst, and Sponsor/Executive Stakeholder—with responsibilities, goals, and communication patterns for each.
+
+- **[Onboarding and Handoff Template](octoacme-onboarding-and-handoff-template.md)**  
+  Checklists and templates for onboarding new team members across all roles and managing effective handoffs between personas to ensure knowledge transfer and project continuity.
 
 ### Project Lifecycle Phases
 
@@ -52,10 +55,14 @@ This documentation is organized into focused guides covering each aspect of our 
 
 ## How to Use This Documentation
 
-- **New team members**: Start with the [Project Management Overview](octoacme-project-management-overview.md) and [Roles and Personas](octoacme-roles-and-personas.md) to understand our approach and your role.
+- **New team members**: Start with the [Project Management Overview](octoacme-project-management-overview.md) and [Roles and Personas](octoacme-roles-and-personas.md) to understand our approach and your role. Use the [Onboarding and Handoff Template](octoacme-onboarding-and-handoff-template.md) for role-specific onboarding checklists.
 - **Project Managers**: Reference the lifecycle phase guides as you move through initiation, planning, execution, release, and retrospective.
 - **Developers and QA**: Focus on [Execution and Tracking](octoacme-execution-and-tracking.md) and [Release and Deployment](octoacme-release-and-deployment.md) for day-to-day workflows.
 - **Product Managers**: Review [Project Initiation](octoacme-project-initiation.md) and [Project Planning](octoacme-project-planning.md) for defining outcomes and prioritization.
+- **UX Designers**: See [Roles and Personas](octoacme-roles-and-personas.md) for your role definition and [Project Planning](octoacme-project-planning.md) for collaboration touchpoints.
+- **DevOps Engineers**: Focus on [Execution and Tracking](octoacme-execution-and-tracking.md) and [Release and Deployment](octoacme-release-and-deployment.md) for pipeline and deployment workflows.
+- **Security Leads**: Review [Risk Management and Communication](octoacme-risks-and-communication.md) for escalation paths and [Release and Deployment](octoacme-release-and-deployment.md) for security review requirements.
+- **Data Analysts**: See [Roles and Personas](octoacme-roles-and-personas.md) and [Project Initiation](octoacme-project-initiation.md) for metrics definition and reporting.
 - **All stakeholders**: Use [Risk Management and Communication](octoacme-risks-and-communication.md) to understand how we keep everyone informed and aligned.
 
 For Copilot Spaces integration, add relevant process documents to your `.copilot/` directory to provide AI-powered context for your team's specific workflows.
