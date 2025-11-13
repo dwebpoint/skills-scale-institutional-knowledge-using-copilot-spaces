@@ -17,21 +17,24 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Unit tests for new logic (Developer responsibility)
+- Integration tests where applicable (Developer + QA collaboration)
+- End-to-end smoke tests for critical flows before release (QA + DevOps Engineer)
+- Security scanning in CI (DevOps Engineer + Security Lead)
+- Accessibility testing for UI changes (UX Designer + QA)
 - Manual QA for feature acceptance when needed
+- Data validation for analytics features (Data Analyst involvement)
 
 ## Reporting & Metrics
-- Track velocity and burndown
-- Monitor success metrics identified in the Project One-pager
-- Use dashboards for key signals (errors, latency, usage)
+- Track velocity and burndown (PM responsibility)
+- Monitor success metrics identified in the Project One-pager (Data Analyst creates dashboards)
+- Use dashboards for key signals (errors, latency, usage) — DevOps Engineer maintains observability
+- Report on security posture and vulnerabilities (Security Lead provides updates)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- **Level 1:** Team-level triage in daily standup (Developer, UX Designer, QA collaborate)
+- **Level 2:** PM escalates to Product Lead and dependent teams; DevOps Engineer for infrastructure issues; Security Lead for security concerns
+- **Level 3:** Sponsor/Executive Stakeholder escalation for business-impacting issues or when cross-organizational alignment is needed
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo

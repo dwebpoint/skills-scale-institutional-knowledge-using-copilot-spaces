@@ -23,18 +23,29 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Project name:
 - Problem statement:
 - Objective / Goal (SMART):
-- Success metrics:
-- Primary stakeholders:
+- Success metrics: (Data Analyst to help define)
+- Primary stakeholders: (Include Sponsor/Executive Stakeholder, relevant Product/Engineering leads)
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
+  - Product Manager
+  - Project Manager
+  - Developers (specify number/skills needed)
+  - UX Designer (if UI/UX work involved)
+  - DevOps Engineer (for infrastructure/deployment support)
+  - Security Lead (for security review and threat modeling)
+  - Data Analyst (for metrics and analytics)
+  - QA/Test Engineers
+  - Other specialists as needed
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
-- [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Sponsor / Executive Stakeholder alignment (email or meeting)
+- [ ] Key roles identified and availability confirmed (PM, Developers, UX Designer, DevOps, Security Lead, Data Analyst as needed)
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Schedule kickoff with all key personas
 
 ## Decision Gate
 Move to planning when:
